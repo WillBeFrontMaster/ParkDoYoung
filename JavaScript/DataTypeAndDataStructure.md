@@ -18,7 +18,7 @@
 - Symbol type 
 
 #### Number 조심해야할것
-> 0.1 + 0.2 == 0.3 // false
+> 0.1 + 0.2 == 0.3 //  0.5 false 
 - 소숫점 계산이 필요할 경우 유의해야함.
 #### isNaN 사용시 주의 사항
 ```javascript
@@ -29,7 +29,7 @@ isNaN({ valueOf: "foo" }); // true
 isNaN(new Date());                // 거짓
 isNaN(new Date().toString());     // 참
 ```
-ECMAScript 2015에서 추가된 `Number.isNaN()` 을 사용할것.
+ECMAScript 2015(ES6)에서 추가된 `Number.isNaN()` 을 사용할것.
 ```javascript
 // all false
 Number.isNaN("foo"); 
