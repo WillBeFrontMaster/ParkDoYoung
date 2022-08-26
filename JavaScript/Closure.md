@@ -8,7 +8,7 @@
 
 ### 어휘적 범위 지정(Lexical scoping)
 클로저를 이해하기 위해 Lexical Scoping 에 대해 먼저 알아야 한다.
-어휘적 범위 지정이란? 변슈의 유효범위를 나타내는 용어이다. `JavaScript` 에서는 Lexical scope 를 따르는데 <U>**함수를 어디서 선언**</U>하였는지에 따라 
+어휘적 범위 지정이란? 변수의 유효범위를 나타내는 용어이다. `JavaScript` 에서는 Lexical scope 를 따르는데 <U>**함수를 어디서 선언**</U>하였는지에 따라 
 상위스코프를 결정하는것을 말한다. 함수가 호출된곳이 아닌 선언된곳에서 변수의 범위가 지정되는것에 유의해야한다.
 ```javascript
 function init() {
